@@ -1,0 +1,92 @@
+.App {
+  width: 100%;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin: 1rem;
+  padding: 1rem 2rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: rgb(85, 103, 159);
+  color: white;
+  font-weight: bold;
+  width: 200px;
+}
+
+select {
+  margin: 1rem;
+  padding: 1rem 2rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  width: 260px;
+}
+
+button {
+  margin: 1rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 10px;
+  background-color: royalblue;
+  color: white;
+  font-weight: bold;
+  width: 260px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(48, 72, 145);
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome h1 {
+  font-size: 3rem;
+  margin: 4rem 30%;
+  text-align: center;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.user {
+  border: 6px solid royalblue;
+  border-radius: 10px;
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+  width: 300px;
+}
